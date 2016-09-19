@@ -13,8 +13,5 @@ namespace SlackConnector.Exceptions
 
         public AlreadyConnectedException(string message, Exception innerException) : base(message, innerException)
         { }
-
-        protected AlreadyConnectedException(SerializationInfo info, StreamingContext context) : base(info, context)
-        { }
     }
 }

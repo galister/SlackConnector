@@ -19,7 +19,7 @@ namespace SlackConnector.Connections.Clients
         public async Task<T> Execute<T>(IRestRequest request) where T : class
         {
             IRestClient client = _restSharpFactory.CreateClient(SLACK_URL);
-            IRestResponse response = await client.ExecutePostTaskAsync(request);
+            IRestResponse response = await Task.Run(() => client.Execute(request));
             return _responseVerifier.VerifyResponse<T>(response);
         }
     }

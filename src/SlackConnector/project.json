@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-core",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "RestSharp.CoreNet": "105.2.4-rc4-24214-03",
+    "websocket-sharp": "1.0.0-core"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}
