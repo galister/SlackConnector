@@ -1,10 +1,8 @@
 # SlackConnector 
 
-[![Build status](https://ci.appveyor.com/api/projects/status/m92929hjx6ab3jpl?svg=true)](https://ci.appveyor.com/project/Workshop2/slackconnector-glqir) [![Test status](http://teststatusbadge.azurewebsites.net/api/status/Workshop2/slackconnector-glqir)]
-(https://ci.appveyor.com/project/Workshop2/slackconnector-glqir)  [![Nuget.org](https://img.shields.io/nuget/v/SlackConnector.svg?style=flat)](https://www.nuget.org/packages/SlackConnector)
-
-
-
+This is a port of SlackConnector to .NET Core.
+Works with this .NET Core port of websocket-sharp:
+https://github.com/galister/websocket-sharp
 
 SlackConnector initiates an open connection between you and the Slack servers. SlackConnector uses web-sockets to allow real-time messages to be received and handled within your application.
 
